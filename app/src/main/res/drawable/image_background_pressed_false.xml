@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="1dp"
+        android:color="@color/colorBlack" />
+    <corners
+        android:bottomLeftRadius="@dimen/button_take_picture"
+        android:bottomRightRadius="@dimen/button_take_picture"
+        android:topLeftRadius="@dimen/button_take_picture"
+        android:topRightRadius="@dimen/button_take_picture" />
+    <solid android:color="@color/colorWhite" />
+    <size
+        android:width="@dimen/button_take_picture"
+        android:height="@dimen/button_take_picture" />
+
+</shape>

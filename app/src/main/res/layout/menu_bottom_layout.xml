@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/button_capture"
+        android:layout_width="@dimen/src_take_picture"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/image_background_state"
+        android:src="@drawable/image_state" />
+
+    <ImageView
+        android:id="@+id/ivColorEffect"
+        style="@style/ic_menu"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/ic_expand_less_white_36dp" />
+</FrameLayout>
